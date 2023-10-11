@@ -12,17 +12,21 @@
 }
 
 #sidebar {
+    width: 25%;
     float: left;
     padding: 10px;
     background-color: lightpink;
 }
 
 #content {
+    width: 75%;
+    float: right;
     padding: 10px;
     background-color: lightblue;
 }
 
 #footer {
+    clear: both;
     background-color: lightgrey;
     text-align: center;
     padding: 20px;
